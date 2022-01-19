@@ -17,6 +17,9 @@ const useStyles = makeStyles({
     marginTop: '20px',
     marginLeft: 'auto',
     marginRight: 'auto',
+    "& .MuiTabs-flexContainer": {
+      justifyContent: 'center'
+    },
     "& .MuiTab-root": {
       fontSize: '14px',
       fontWeight: 500,
